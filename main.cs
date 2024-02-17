@@ -16,6 +16,10 @@ class Program
             {
                 Console.WriteLine($"{i} - Bar");
             }
+            else if (i % 3 == 0 && i % 5 == 0)
+            {
+                Console.WriteLine($"{i} - FooBar");
+            }
             else
             {
                 Console.WriteLine(i);
