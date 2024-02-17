@@ -10,8 +10,11 @@ class Program
         {
             if (i % 3 == 0)
             {
-              Console.WriteLine($"{i} - Foo");
-            
+                Console.WriteLine($"{i} - Foo");
+            }
+            else if (i % 5 == 0)
+            {
+                Console.WriteLine($"{i} - Bar");
             }
             else
             {
